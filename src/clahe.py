@@ -33,10 +33,8 @@ IMAGE_EXTENSIONS = {".png", ".jpg", ".jpeg", ".bmp", ".tif", ".tiff"}
 CLASS_NAMES      = ["normal", "benign", "malignant"]
 SPLITS           = ["train", "val", "test"]
 
+# CLAHE
 
-# ──────────────────────────────────────────────────────────────────────────────
-# 1. CLAHE
-# ──────────────────────────────────────────────────────────────────────────────
 
 def apply_clahe(
     image_bgr: np.ndarray,
